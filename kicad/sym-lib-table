@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name 24vModbusInterface-rescue)(type Legacy)(uri ${KIPRJMOD}/24vModbusInterface-rescue.lib)(options "")(descr ""))
+)

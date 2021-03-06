@@ -1,0 +1,13 @@
+### Module positions - created on Thursday, August 29, 2019 at 10:39:24 AM ###
+### Printed by Pcbnew version kicad (5.1.2-1)-1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val         Package                            PosX       PosY       Rot  Side
+C1        0.1uF       C_0603_HandSoldering           133.3500  -109.2200  270.0000  top
+C2        10uF        C_0805_HandSoldering           129.5400  -100.3300   90.0000  top
+D1        D_Schottky  D_SOD-323_HandSoldering        133.3500   -99.0600  180.0000  top
+D2        LED         LED_0603_HandSoldering         119.3800  -104.1400    0.0000  top
+R1        330         R_0603_HandSoldering           130.8100  -104.1400  180.0000  top
+R2        220         R_0603_HandSoldering           127.0000  -107.9500  270.0000  top
+U2        SP3485      SOIC-8_3.9x4.9mm_Pitch1.27mm   140.9700  -105.4100   90.0000  top
+## End

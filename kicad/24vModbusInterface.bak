@@ -1,0 +1,253 @@
+EESchema Schematic File Version 4
+LIBS:ModbusRTUFeather-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L particle-boards:ARGON U1
+U 1 1 5CCB7E15
+P 2700 3800
+F 0 "U1" H 2700 3050 60  0000 C CNN
+F 1 "ARGON" H 2700 4500 60  0000 C CNN
+F 2 "winely_kicad:FeatherWing" H 2700 3900 60  0001 C CNN
+F 3 "" H 2700 3900 60  0000 C CNN
+	1    2700 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 3300 4450 3300
+Wire Wire Line
+	4450 3300 4450 3400
+Wire Wire Line
+	3900 3400 4450 3400
+Wire Wire Line
+	3900 3400 3900 3950
+Wire Wire Line
+	3900 3950 3500 3950
+Connection ~ 4450 3400
+Wire Wire Line
+	3500 3200 4550 3200
+Wire Wire Line
+	4550 3500 4150 3500
+Wire Wire Line
+	4150 3500 4150 3100
+Wire Wire Line
+	4150 3100 3500 3100
+Wire Wire Line
+	5450 3200 5700 3200
+Wire Wire Line
+	5700 3200 5700 2250
+Wire Wire Line
+	5700 2250 1650 2250
+Wire Wire Line
+	1650 2250 1650 3200
+Wire Wire Line
+	1650 3200 1900 3200
+Wire Wire Line
+	1900 3400 1650 3400
+Wire Wire Line
+	1650 3400 1650 3550
+Wire Wire Line
+	1650 5000 3900 5000
+Wire Wire Line
+	5750 5000 5750 3500
+Wire Wire Line
+	5750 3500 5450 3500
+$Comp
+L ModbusRTUFeather-rescue:R R1
+U 1 1 5CCB82F9
+P 3900 4100
+F 0 "R1" V 3980 4100 50  0000 C CNN
+F 1 "330" V 3900 4100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3830 4100 50  0001 C CNN
+F 3 "" H 3900 4100 50  0001 C CNN
+	1    3900 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L ModbusRTUFeather-rescue:LED D2
+U 1 1 5CCB833C
+P 3900 4400
+F 0 "D2" H 3900 4500 50  0000 C CNN
+F 1 "LED" H 3900 4300 50  0000 C CNN
+F 2 "LEDs:LED_0603_HandSoldering" H 3900 4400 50  0001 C CNN
+F 3 "" H 3900 4400 50  0001 C CNN
+	1    3900 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3900 4550 3900 5000
+Connection ~ 3900 5000
+$Comp
+L ModbusRTUFeather-rescue:R R2
+U 1 1 5CCB83E2
+P 6200 3350
+F 0 "R2" V 6280 3350 50  0000 C CNN
+F 1 "220" V 6200 3350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6130 3350 50  0001 C CNN
+F 3 "" H 6200 3350 50  0001 C CNN
+	1    6200 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 3300 6000 3300
+Wire Wire Line
+	6000 3300 6000 3200
+Wire Wire Line
+	6000 3200 6200 3200
+Wire Wire Line
+	5450 3400 6000 3400
+Wire Wire Line
+	6000 3400 6000 3500
+Wire Wire Line
+	6000 3500 6200 3500
+$Comp
+L ModbusRTUFeather-rescue:C_Small C1
+U 1 1 5CCB850B
+P 1650 3300
+F 0 "C1" H 1660 3370 50  0000 L CNN
+F 1 "0.1uF" H 1660 3220 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1650 3300 50  0001 C CNN
+F 3 "" H 1650 3300 50  0001 C CNN
+	1    1650 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 3700 800  3700
+$Comp
+L ModbusRTUFeather-rescue:D_Schottky D1
+U 1 1 5CCB868B
+P 800 3550
+F 0 "D1" H 800 3650 50  0000 C CNN
+F 1 "D_Schottky" H 800 3450 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 800 3550 50  0001 C CNN
+F 3 "" H 800 3550 50  0001 C CNN
+	1    800  3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	800  3400 800  3250
+Wire Wire Line
+	1650 3550 1000 3550
+Wire Wire Line
+	1000 3550 1000 3250
+Connection ~ 1650 3550
+$Comp
+L ModbusRTUFeather-rescue:Conn_01x02 J1
+U 1 1 5CCB873F
+P 800 2700
+F 0 "J1" H 800 2800 50  0000 C CNN
+F 1 "Conn_01x02" H 800 2500 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol" H 800 2700 50  0001 C CNN
+F 3 "" H 800 2700 50  0001 C CNN
+	1    800  2700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1000 2900 900  2900
+$Comp
+L ModbusRTUFeather-rescue:Conn_01x02 J2
+U 1 1 5CCB8843
+P 6800 3300
+F 0 "J2" H 6800 3400 50  0000 C CNN
+F 1 "Conn_01x02" H 6800 3100 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol" H 6800 3300 50  0001 C CNN
+F 3 "" H 6800 3300 50  0001 C CNN
+	1    6800 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 3200 6600 3300
+Wire Wire Line
+	6600 3500 6600 3400
+Text GLabel 6500 3200 1    60   Input ~ 0
+B
+Text GLabel 6500 3500 3    60   Input ~ 0
+A
+Text GLabel 5700 2250 1    60   Input ~ 0
+3v3
+Text GLabel 5750 5000 3    60   Input ~ 0
+GND
+Text GLabel 3900 3950 2    60   Input ~ 0
+RTS
+Text GLabel 1200 3700 3    60   Input ~ 0
+VUSB
+Text GLabel 800  3150 0    60   Input ~ 0
+VIN
+Text GLabel 4150 3100 2    60   Input ~ 0
+TX
+Text GLabel 3700 3200 3    60   Input ~ 0
+RX
+Connection ~ 6200 3200
+Connection ~ 6200 3500
+$Comp
+L particle-boards:SP3485 U2
+U 1 1 5CCB91CC
+P 5000 3350
+F 0 "U2" H 5000 3000 60  0000 C CNN
+F 1 "SP3485" H 5000 3650 60  0000 C CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 5000 3150 60  0001 C CNN
+F 3 "" H 5000 3150 60  0001 C CNN
+	1    5000 3350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1900 3100
+NoConn ~ 1900 3300
+NoConn ~ 1900 3500
+NoConn ~ 1900 3600
+NoConn ~ 1900 4050
+NoConn ~ 1900 4150
+NoConn ~ 1900 4250
+NoConn ~ 1900 4350
+NoConn ~ 1900 4450
+NoConn ~ 1900 4550
+NoConn ~ 3500 4550
+NoConn ~ 3500 4450
+NoConn ~ 3500 4350
+NoConn ~ 3500 4250
+NoConn ~ 3500 4150
+NoConn ~ 3500 4050
+NoConn ~ 3500 3850
+NoConn ~ 3500 3750
+NoConn ~ 3500 3500
+NoConn ~ 3500 3400
+NoConn ~ 3500 3300
+$Comp
+L ModbusRTUFeather-rescue:C_Small C2
+U 1 1 5CCB95DA
+P 900 3250
+F 0 "C2" H 910 3320 50  0000 L CNN
+F 1 "10uF" H 910 3170 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 900 3250 50  0001 C CNN
+F 3 "" H 900 3250 50  0001 C CNN
+	1    900  3250
+	0    1    1    0   
+$EndComp
+Connection ~ 800  3250
+Connection ~ 1000 3250
+Wire Wire Line
+	4450 3400 4550 3400
+Wire Wire Line
+	3900 5000 5750 5000
+Wire Wire Line
+	1650 3550 1650 5000
+Wire Wire Line
+	6200 3200 6600 3200
+Wire Wire Line
+	6200 3500 6600 3500
+Wire Wire Line
+	800  3250 800  2900
+Wire Wire Line
+	1000 3250 1000 2900
+$EndSCHEMATC
