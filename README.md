@@ -44,3 +44,16 @@ For the demo firmware
 ![Particle App Events](img/events.PNG)
 
 ![Particle App Functions](img/functions.jpeg)
+
+## Let's talk - Office Hours
+
+Are you interested in this system of tools we are building? 
+
+I would love to talk and listen to you!
+
+Please book a free 20 minute session - [Hudson Sonoma Office Hours](https://calendly.com/twbishop/hudson-sonoma-office-hours) - if you would like to talk about any of the following:
+
+* Is my equipment compatible with RS-485 for remote control?
+* Understanding what this is and why it might be useful for you
+* Customizing the firmware or mobile app
+* Feedback having used (or tried to use) this product
