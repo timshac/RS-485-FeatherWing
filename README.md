@@ -35,7 +35,7 @@ Power the RS-485 Featherwing with 5.2-36v DC (200mA)
 
 Clone this firmware
 [Github Novus-N322-modbus-RTU-driver](https://github.com/timshac/Novus-N322-modbus-RTU-driver)
-Adapt to you modbus RTU device
+Adapt to your modbus RTU device
 
 ## Example Particle.io Mobile App
 
