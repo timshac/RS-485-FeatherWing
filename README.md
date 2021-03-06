@@ -41,6 +41,6 @@ Adapt to you modbus RTU device
 
 For the demo firmware
 
-![Particle App Events](img/events.png)
+![Particle App Events](img/events.PNG)
 
 ![Particle App Functions](img/functions.jpeg)
