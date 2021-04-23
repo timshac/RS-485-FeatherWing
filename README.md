@@ -57,3 +57,7 @@ Please book a free 20 minute session - [Hudson Sonoma Office Hours](https://cale
 * Understanding what this is and why it might be useful for you
 * Customizing the firmware or mobile app
 * Feedback having used (or tried to use) this product
+
+## License
+
+* Hardware: CERN-OHL-P
