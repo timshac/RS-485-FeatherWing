@@ -53,7 +53,6 @@ I would love to talk and listen to you!
 
 Please book a free 20 minute session - [Hudson Sonoma Office Hours](https://calendly.com/twbishop/hudson-sonoma-office-hours) - if you would like to talk about any of the following:
 
-* Is my equipment compatible with RS-485 for remote control?
 * Understanding what this is and why it might be useful for you
 * Customizing the firmware or mobile app
 * Feedback having used (or tried to use) this product
@@ -61,3 +60,13 @@ Please book a free 20 minute session - [Hudson Sonoma Office Hours](https://cale
 ## License
 
 * Hardware: CERN-OHL-P
+
+This hardware is intended for further engineering and/or development, it is not an end user product. This development product is supplied AS IS, without any warranties, with all faults, at the buyer’s and further users’ sole risk. The user assumes all responsibility and liability for proper and safe operation.
+
+The user understands and agrees that this is not designed for use in safety-critical applications where a failure of the product would reasonably be expected to cause severe personal injury or death.
+
+Any use of this firmware and/or hardware is solely at the customer’s risk, and that customer is solely responsible for compliance with all legal and regulatory requirements in connection with such use.
+
+HARDWARE AND ANY RELATED SOFTWARE IS PROVIDED ‘AS IS’ WITH NO ADDITIONAL WARRANTY.
+
+THERE IS NO OTHER WARRANTY, EXPRESS OR IMPLIED, SUCH AS WARRANTY OF MERCHANTABILITY, FITNESS FOR PARTICULAR PURPOSE OR NON INFRINGEMENT.
